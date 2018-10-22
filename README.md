@@ -12,7 +12,7 @@ $ upx mackerel-multi-port-apache-plugin
 ```
 
 ## プラグインの配置場所
-ap1かapm2サーバの`/usr/local/bin/multi-apache2`として配置する
+任意のサーバに`/usr/local/bin/multi-apache2`として配置する
 新しく配置した後はmackerelをサービスを再起動する
 ```
 /etc/init.d/mackerel-agent restart
